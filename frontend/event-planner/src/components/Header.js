@@ -1,17 +1,39 @@
-// components/Header.js
-
 import React from 'react';
+import logo from '../images/logo.JPG';
 
 const Header = () => {
     return (
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/events">Events</a></li>
-                    {/* Add more links here */}
-                </ul>
-            </nav>
+        <header className="bg-white text-dark py-6">
+            <div className="container d-flex justify-content-between align-items-center">
+                {/* Logo */}
+                <div className="logo">
+                    <img src={logo} alt="Logo" className="img-fluid" style={{ height: '120px' }} />
+                </div>
+                
+                {/* Navigation Links */} 
+                <nav>
+                    <ul className="nav">
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/" style={{ color: '#212163' }}>Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/services" style={{ color: '#212163' }}>Services</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/about" style={{ color: '#212163' }}>About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/contact" style={{ color: '#212163' }}>Contact</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/login" style={{ color: '#212163' }}>Login</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fs-3" href="/signup" style={{ color: '#212163' }}>Sign Up</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
     );
 };

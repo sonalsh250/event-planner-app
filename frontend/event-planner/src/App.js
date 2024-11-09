@@ -49,11 +49,13 @@
 import React from 'react';
 import Header from './components/Header'; // Correct path to your Header component
 import HeroSection from './components/HeroSection'; // Correct path to your HeroSection component
+import BodyImage from './components/BodyImage';
 
 const App = () => {
     return (
         <div>
             <Header />        {/* This will render the Header */}
+            <BodyImage />
             <HeroSection />   {/* This will render the HeroSection */}
         </div>
     );
