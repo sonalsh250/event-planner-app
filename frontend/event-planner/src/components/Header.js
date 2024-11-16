@@ -14,22 +14,22 @@ const Header = () => {
                 <nav>
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/" style={{ color: '#212163' }}>Home</a>
+                            <a className="nav-link fs-3" href="/" style={{ color: '#16099D' }}>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/services" style={{ color: '#212163' }}>Services</a>
+                            <a className="nav-link fs-3" href="/services" style={{ color: '#16099D' }}>Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/about" style={{ color: '#212163' }}>About</a>
+                            <a className="nav-link fs-3" href="/about" style={{ color: '#16099D' }}>About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/contact" style={{ color: '#212163' }}>Contact</a>
+                            <a className="nav-link fs-3" href="/contact" style={{ color: '#16099D' }}>Contact</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/login" style={{ color: '#212163' }}>Login</a>
+                            <a className="nav-link fs-3" href="/login" style={{ color: '#16099D' }}>Login</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/signup" style={{ color: '#212163' }}>Sign Up</a>
+                            <a className="nav-link fs-3" href="/signup" style={{ color: '#16099D' }}>Sign Up</a>
                         </li>
                     </ul>
                 </nav>
