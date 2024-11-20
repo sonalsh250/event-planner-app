@@ -13,11 +13,6 @@ const BodyImage = () => {
                 width: '100%',                           // Make sure the image takes up full width
             }}
         >
-            {/* Optional: Add content inside the image section */}
-            {/* <div className="overlay">
-                <h2 style={{ color: 'white' }}>Welcome to Our Event Planner</h2>
-                <p style={{ color: 'white' }}>Your perfect events are just a click away!</p>
-            </div> */}
         </section>
     );
 };

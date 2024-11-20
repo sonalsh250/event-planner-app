@@ -1,4 +1,6 @@
 import React from 'react';
+// import { Outlet, Link } from "react-router-dom";
+
 import logo from '../images/logo.JPG';
 
 const Header = () => {
@@ -17,6 +19,7 @@ const Header = () => {
                             <a className="nav-link fs-3" href="/" style={{ color: '#16099D' }}>Home</a>
                         </li>
                         <li className="nav-item">
+                            {/* <Link to="/services">Services</Link> */}
                             <a className="nav-link fs-3" href="/services" style={{ color: '#16099D' }}>Services</a>
                         </li>
                         <li className="nav-item">
@@ -34,6 +37,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
+            {/* <Outlet/> */}
         </header>
     );
 };
