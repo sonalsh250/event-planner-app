@@ -20,7 +20,7 @@ const Footer = () => {
               <p className="mb-2">
                 At SN Event Planners, we turn your dreams into reality with carefully curated experiences.
               </p>
-              <button className="btn btn-light text-primary mb-3">Contact Us</button>
+              <button className="btn btn-light text-primary mb-3" id="contactus">Contact Us</button>
               <div>
                 <a href="www.google.com" className="text-white me-3">
                 <i className="fa-brands fa-instagram"></i>

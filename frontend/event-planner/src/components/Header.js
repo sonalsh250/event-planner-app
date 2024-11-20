@@ -1,5 +1,6 @@
 import React from 'react';
 // import { Outlet, Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 import logo from '../images/logo.JPG';
 
@@ -26,7 +27,8 @@ const Header = () => {
                             <a className="nav-link fs-3" href="/about" style={{ color: '#16099D' }}>About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fs-3" href="/contact" style={{ color: '#16099D' }}>Contact</a>
+                            {/* <a className="nav-link fs-3" href="/contact" style={{ color: '#16099D' }}>Contact</a> */}
+                            <Link to="contactus" spy={true} smooth={true} offset={50} duration={500}  className="nav-link fs-3" href="/contact" style={{ color: '#16099D' }}>Contact</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link fs-3" href="/login" style={{ color: '#16099D' }}>Login</a>

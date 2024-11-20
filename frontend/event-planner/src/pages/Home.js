@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header'; 
+// import Header from '../components/Header'; 
 import HeroSection from '../components/HeroSection';
 import BodyImage from '../components/BodyImage';
 import Footer from '../components/Footer';
@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 const Home = () => {
     return (
         <div>
-            <Header />        
+            {/* <Header />         */}
              <BodyImage />
              <HeroSection />   
              <Footer />  
