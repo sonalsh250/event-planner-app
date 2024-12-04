@@ -1,5 +1,5 @@
 import React from "react"; 
-import logo from '../images/logo.JPG';
+import SonuBalloonDecorations from '../images/SonuBalloonDecorations4.jpg';
 
 const Footer = () => {
     return (
@@ -9,7 +9,7 @@ const Footer = () => {
             {/* Left Image Section */}
             <div className="col-md-2 text-center text-md-left">
               <img
-                src={logo} // Replace with your logo URL
+                src={SonuBalloonDecorations} // Replace with your logo URL
                 alt="Logo"
                 className="img-fluid"
               />
